@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.Api", "src\CarAuctionManagementSystem.Api\CarAuctionManagementSystem.Api.csproj", "{63D14135-E90F-4026-A60D-FA91D28073EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.Application", "src\CarAuctionManagementSystem.Application\CarAuctionManagementSystem.Application.csproj", "{02474652-F8FB-49FC-9951-233896C80CA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.Domain", "src\CarAuctionManagementSystem.Domain\CarAuctionManagementSystem.Domain.csproj", "{E1156301-8A0A-461B-B39E-8525C5804358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.Infrastructure", "src\CarAuctionManagementSystem.Infrastructure\CarAuctionManagementSystem.Infrastructure.csproj", "{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.Persistence", "src\CarAuctionManagementSystem.Persistence\CarAuctionManagementSystem.Persistence.csproj", "{B8A4F765-08C3-4EEF-BD5B-FFB68649E591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2F933119-369D-45F6-9D8E-D477E5AEDFCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.UnitTests", "tests\CarAuctionManagementSystem.UnitTests\CarAuctionManagementSystem.UnitTests.csproj", "{9BBA9526-9F5E-4779-8973-DF32FDF8C230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionManagementSystem.IntegrationTests", "tests\CarAuctionManagementSystem.IntegrationTests\CarAuctionManagementSystem.IntegrationTests.csproj", "{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAuctionManagementSystem.Utilities", "tests\CarAuctionManagementSystem.Utilities\CarAuctionManagementSystem.Utilities.csproj", "{56020EBF-593A-4557-ACED-9A402C9A3B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63D14135-E90F-4026-A60D-FA91D28073EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D14135-E90F-4026-A60D-FA91D28073EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D14135-E90F-4026-A60D-FA91D28073EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D14135-E90F-4026-A60D-FA91D28073EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02474652-F8FB-49FC-9951-233896C80CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02474652-F8FB-49FC-9951-233896C80CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02474652-F8FB-49FC-9951-233896C80CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02474652-F8FB-49FC-9951-233896C80CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1156301-8A0A-461B-B39E-8525C5804358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1156301-8A0A-461B-B39E-8525C5804358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1156301-8A0A-461B-B39E-8525C5804358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1156301-8A0A-461B-B39E-8525C5804358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A4F765-08C3-4EEF-BD5B-FFB68649E591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A4F765-08C3-4EEF-BD5B-FFB68649E591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A4F765-08C3-4EEF-BD5B-FFB68649E591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A4F765-08C3-4EEF-BD5B-FFB68649E591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBA9526-9F5E-4779-8973-DF32FDF8C230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBA9526-9F5E-4779-8973-DF32FDF8C230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBA9526-9F5E-4779-8973-DF32FDF8C230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBA9526-9F5E-4779-8973-DF32FDF8C230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56020EBF-593A-4557-ACED-9A402C9A3B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56020EBF-593A-4557-ACED-9A402C9A3B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56020EBF-593A-4557-ACED-9A402C9A3B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56020EBF-593A-4557-ACED-9A402C9A3B08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63D14135-E90F-4026-A60D-FA91D28073EE} = {AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}
+		{02474652-F8FB-49FC-9951-233896C80CA9} = {AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}
+		{E1156301-8A0A-461B-B39E-8525C5804358} = {AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}
+		{D2A55C2F-65D9-4F11-A68D-CBEE993C9E79} = {AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}
+		{B8A4F765-08C3-4EEF-BD5B-FFB68649E591} = {AE38D2C0-C057-4B00-9432-7FB3B1A2EC92}
+		{9BBA9526-9F5E-4779-8973-DF32FDF8C230} = {2F933119-369D-45F6-9D8E-D477E5AEDFCB}
+		{E47B42EE-68BE-4EB4-A70F-CEB3FBA3EF47} = {2F933119-369D-45F6-9D8E-D477E5AEDFCB}
+		{56020EBF-593A-4557-ACED-9A402C9A3B08} = {2F933119-369D-45F6-9D8E-D477E5AEDFCB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF4ED889-ABDD-49A0-80BD-0989F2F2D672}
+	EndGlobalSection
+EndGlobal

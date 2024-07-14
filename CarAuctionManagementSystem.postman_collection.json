@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "8bcfb95f-47cb-4d80-873d-354a85903e82",
+		"name": "CarAuctionManagementSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24361547"
+	},
+	"item": [
+		{
+			"name": "Create Vehicle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"sedan\",\r\n  \"identifier\": \"identifier1\",\r\n  \"manufacturer\": \"manufacturer1\",\r\n  \"model\": \"model1\",\r\n  \"year\": 2022,\r\n  \"startingBid\": 5500.50,\r\n  \"numberOfDoors\": 5,\r\n  \"numberOfSeats\": 0,\r\n  \"loadCapacity\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:80/api/v1/vehicles"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:80/api/v1/vehicles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"vehicles"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pageSize",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "truck",
+							"disabled": true
+						},
+						{
+							"key": "model",
+							"value": "model1",
+							"disabled": true
+						},
+						{
+							"key": "manufacturer",
+							"value": "manufacturer1",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "2022",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Auction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:80/api/v1/vehicles/identifier1/auctions"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Bid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"value\": 5500,\r\n  \"userIdentifier\": \"user1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:80/api/v1/vehicles/identifier1/auctions/bids"
+			},
+			"response": []
+		},
+		{
+			"name": "Close Auction",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:80/api/v1/vehicles/identifier1/auctions/close"
+			},
+			"response": []
+		}
+	]
+}
