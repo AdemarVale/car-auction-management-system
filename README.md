@@ -1,6 +1,7 @@
 # CAR-AUCTION-MANAGEMENT-SYSTEM
 
-Author: Ademar Vale, 14/07/2024
+**Author**: Ademar Vale 1
+**Date**: 14/07/2024
 
 ## Project Structure
 Followed onion architecture to develop this API:
@@ -33,7 +34,7 @@ In the project root, execute 'docker-compose up --build' in order to run the app
 
 ## Decisions
 
-* In order to store & manage business logic, a RDDMS was chosen, specifically PostgreSQL.
+* In order to store & manage business logic, a RDBMS was chosen, specifically PostgreSQL.
 * Used Entity Framework as ORM.
 * Used SEQ as log observability (non-requested feature).
 * Used xUnit as testing framework.
@@ -47,3 +48,8 @@ In the project root, execute 'docker-compose up --build' in order to run the app
 * Version endpoints
 * Serilog & SEQ as logging package & collector
 * MediatR package for Mediator Pattern implementation
+
+## Database structure
+
+![image](https://github.com/user-attachments/assets/7b068707-9000-472f-9fbd-67b8cda0e2ed)
+
